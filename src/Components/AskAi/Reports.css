@@ -2,8 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 2rem 10px 2rem 3rem;
 
+    .dialogflow-container{
+      background-color: yellow;
+      width: 100vh;
+      height: 100vh;
+    }
   
   .report-card {
     width: 100%;

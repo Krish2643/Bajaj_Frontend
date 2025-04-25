@@ -1,7 +1,9 @@
+import DialogflowChat from './DialogflowChat'
 import './Reports.css'
 
 export default function Reports() {
   return (
+    <>
     <div className="report-container">
       <div className="report-card">
         <div className="report-header">
@@ -82,5 +84,6 @@ export default function Reports() {
         
       </div>
     </div>
+    </>
   )
 }
