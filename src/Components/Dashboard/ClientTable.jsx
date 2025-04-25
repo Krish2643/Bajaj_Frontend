@@ -1,5 +1,4 @@
 import React from 'react'
-import { WiStars } from "react-icons/wi";
 import { GiStarsStack } from "react-icons/gi";
 import './ClientTable.css'
 
