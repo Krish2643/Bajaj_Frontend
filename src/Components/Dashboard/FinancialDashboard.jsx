@@ -1,7 +1,7 @@
 import "./FinancialDashboard.css"
 import Chart from "./Chart"
 import GradientProgressBar from "./GradientProgressBar"
-import SemiCircleGauge from "./SemiCircleGauge"
+// import SemiCircleGauge from "./SemiCircleGauge"
 
 const FinancialDashboard = () => {
   
@@ -48,7 +48,7 @@ const FinancialDashboard = () => {
 
         <div className="metric-card">
           <div className="metric-title">Client Churn Rate</div>
-          <SemiCircleGauge percentage={93} />
+          {/* <SemiCircleGauge percentage={93} /> */}
         </div>
       </div>
 

@@ -13,3 +13,5 @@ const AskAI = () => {
 }
 
 export default AskAI
+
+ // "react-gauge-chart": "^0.5.1",
