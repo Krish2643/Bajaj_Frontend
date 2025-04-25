@@ -4,8 +4,6 @@ import GradientProgressBar from "./GradientProgressBar"
 // import SemiCircleGauge from "./SemiCircleGauge"
 
 const FinancialDashboard = () => {
-  
-
 
   return (
     <div>
