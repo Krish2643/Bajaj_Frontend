@@ -1,0 +1,18 @@
+.gauge-wrapper {
+    position: relative;
+    width: 180px;
+    background-color: #fff4e5;
+  }
+  
+  .gauge-label {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    font-size: 8px;
+  }
+  

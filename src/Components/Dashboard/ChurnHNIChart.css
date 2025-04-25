@@ -1,0 +1,117 @@
+.ChurnHNIChart-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  
+  .chart-card {
+    flex: 1;
+    min-width: 300px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 2.2rem 20px 20px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+  }
+  
+  .year-selector {
+    position: relative;
+  }
+  
+  .selected-year {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .year-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 100px;
+  }
+  
+  .year-option {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .year-option:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .chart-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+  }
+  
+  .custom-tooltip {
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 14px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+  }
+  
+  .tooltip-label {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #111827;
+  }
+  
+  .tooltip-suggestion {
+    margin: 5px 0;
+    font-size: 14px; 
+    color: #3b82f6;
+  }
+} 
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .ChurnHNIChart-container{
+      flex-direction: column;
+    }
+  
+    .chart-card {
+      width: 100%;
+    }
+  }
+  

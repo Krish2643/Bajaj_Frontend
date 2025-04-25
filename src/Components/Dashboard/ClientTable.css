@@ -1,0 +1,70 @@
+.client-table-container{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 2rem;
+  
+  .client-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .client-table thead {
+    background-color: #fff8e7;
+  }
+  
+  .client-table th {
+    padding: 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+  }
+  
+  .client-table td {
+    padding: 16px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .ai-recommend-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    border-radius: 26px;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .ai-recommend-button svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .recommendation-cell {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .percentage {
+    font-weight: 600;
+    min-width: 40px;
+  }
+  
+  .recommendation-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    max-width: 330px;
+  }
+}

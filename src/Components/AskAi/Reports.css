@@ -1,0 +1,182 @@
+.report-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+
+  
+  .report-card {
+    width: 100%;
+    border-radius: 1px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(149, 76, 233, 0.3);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .report-card::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #a239ca, #4b00e0, #a239ca);
+    z-index: -1;
+    border-radius: 1px;
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+  }
+  
+  .title-section h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .subtitle {
+    font-weight: normal;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .badge {
+    /* background-color: #4c6ef5; */
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(45deg, #70A5F8, #AB1FFF);
+  }
+  
+  .badge-icon {
+    margin-right: 4px;
+    border-radius: 50%;
+  }
+  
+  .main-section {
+    padding: 16px 24px;
+    border: 1px solid #007BFF;
+    border-radius: 8px;
+    margin: 0 24px 24px;
+
+  }
+  
+  .main-section h1 {
+    color: #0a2540;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+  }
+  
+  .prediction {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .label {
+    color: #0066ff;
+    font-weight: 400;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    padding: 0 24px;
+    margin-bottom: 24px;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.warning-card{
+      border: 1px solid #FEC02E;
+    color: #9B6D00;
+    font-weight: 350;
+  }
+  
+  .warning-card h2 {
+    color: #b7791f;
+  }
+  
+  .revenue-card{
+    color: #943B00;
+    border: 1px solid #D61717;
+    font-weight: 350;
+  }
+
+  .revenue-card h2 {
+    color: #b91c1c;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .warning-icon,
+  .revenue-icon {
+    margin-right: 8px;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .card li {
+    margin-bottom: 16px;
+  }
+  
+  .card li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .trends-section {
+    background-color: #f8f0ff;
+    padding: 20px 24px;
+    margin: 0 24px 24px;
+    border-radius: 8px;
+    border: 1px solid #6F02B3;
+  }
+  
+  .trends-section h2 {
+    color: #7e22ce;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sparkle-icon {
+    margin-left: 8px;
+  }
+  
+  .purple {
+    color: #6D0094;
+  }
+  
+  .purple .label {
+    color: #C933FF;
+  }
+}
+  
