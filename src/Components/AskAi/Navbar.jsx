@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./Navbar.css";
 import logo from "../../assets/Images/bajaj-logo.png";
 import { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
